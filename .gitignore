@@ -1,0 +1,14 @@
+# Ignore config file with bot token
+source/config.py
+
+# Ignore logs
+source/logs/
+
+# Ignore venv
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd

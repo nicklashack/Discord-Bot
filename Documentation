@@ -1,0 +1,28 @@
+cogs = commands
+utils = helper functions
+main.py = entry point
+config.py = stores token/prefix
+requirements = pip dependencies
+README.md = well, thats the readme. duh
+
+
+
+commands:
+Administration
+
+ban = !ban @user {reason}
+mute = !mute @user {reason}
+warn = !warn @user {reason}
+purge messages of user = !purgw_user @user {reason}
+
+Utility
+
+server info = !serverinfo
+poll = !poll question | option1 | option2 | option3 | option4 | option5 | option6 | option7 | option8 | option9 | option10
+
+
+Verification
+
+setup verification message = !setup_rules
+send this command into your rules channel. then the bot will send a message with an embed telling to react to verify. the user reacting will get the "Verified" role.
+
